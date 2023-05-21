@@ -24,11 +24,11 @@ app.use(express.urlencoded({extended:true}));
 app.get('/',(req,res)=>{
     res.render('main');
 })
-app.get('/interior',(req,res)=>{
-    res.render('interior');
-})
 app.get('/architecture',(req,res)=>{
     res.render('architecture');
+})
+app.get('/inter',(req,res)=>{
+    res.render('inter');
 })
 app.get('/landscape',(req,res)=>{
     res.render('landscape');
