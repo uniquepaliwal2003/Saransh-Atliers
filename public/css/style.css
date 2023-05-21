@@ -42,6 +42,7 @@ body {
 	z-index: 1;
 }
 
+
 /* navbar */
 .navbar{
 	position:absolute;
@@ -50,7 +51,7 @@ body {
 	z-index: 2;
 	width: 100vw;
 }
-.navbar .getstarted {
+/* .navbar .getstarted {
 	background: #106eea;
 	margin-left: 30px;
 	border-radius: 4px;
@@ -59,9 +60,11 @@ body {
 	text-decoration: none;
 	padding: .5rem 1rem;
 	line-height: 2.3;
-}
+} */
 .navbar-nav a {
-	font-size: 15px;
+	color: whitesmoke;
+	font-size: 17px;
+	font-weight: 600;
 	text-transform: uppercase;
 	font-weight: 500;
 }
@@ -79,7 +82,7 @@ body {
 	color: #000;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	color: #000;
+	color: white
 }
 .w-100 {
 	height: 100vh;
@@ -91,11 +94,13 @@ body {
 	padding: 1px 5px;
 	font-size: 18px;
 	line-height: 0.3;
-	background: #fff;
+	background-color: gray;
+	/* background: #fff; */
+	/* color:black; */
 }
+
 .imgabout{
 	border-radius: 50%;
-	/* height: 50vh; */
 }
 .unique{
 	color: gray;
@@ -125,9 +130,6 @@ body {
 .portfolio{
 	background-color: white;
 	/* background-color:rgb(207, 207, 207); */
-}
-.contact{
-	/* background-color: rgb(221, 221, 221); */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.carousel-caption {
@@ -178,5 +180,10 @@ body {
 	}
 	.card {
 		margin-bottom: 30px;
+	}
+}
+@media only screen and (max-width: 980px) {
+	.w-100{
+		object-fit: cover;
 	}
 }
