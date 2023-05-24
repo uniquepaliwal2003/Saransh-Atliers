@@ -27,8 +27,8 @@ app.get('/',(req,res)=>{
 app.get('/architecture',(req,res)=>{
     res.render('architecture');
 })
-app.get('/inter',(req,res)=>{
-    res.render('inter');
+app.get('/interiorDesign',(req,res)=>{
+    res.render('interiorDesign');
 })
 app.get('/landscape',(req,res)=>{
     res.render('landscape');

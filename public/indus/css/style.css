@@ -9,40 +9,6 @@ body {
 .section-padding {
 	padding: 100px 0;
 }
-
-/* carousel */
-.carousel-item {
-	height: 100vh;
-	min-height: 300px;
-}
-.carousel-caption {
-	bottom: 220px;
-	z-index: 2;
-}
-.carousel-caption h5 {
-	font-size: 45px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-top: 25px;
-}
-.carousel-caption p {
-	width: 60%;
-	margin: auto;
-	font-size: 18px;
-	line-height: 1.9;
-}
-.carousel-inner:before {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: rgba(0, 0, 0, 0.2);
-	z-index: 1;
-}
-
-
 /* navbar */
 .navbar{
 	position:absolute;
@@ -98,49 +64,29 @@ body {
 	/* background: #fff; */
 	/* color:black; */
 }
+.ram:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(182, 182, 182, 0.1);
+	z-index: 1;
+}
+.ram{
+    background-image:url("../img/home-4.jpg") ;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+}
+.name{
+	position: absolute;
+	top: 50vh;
+	left:28%;
+ }
 
-.imgabout{
-	border-radius: 50%;
-}
-.unique{
-	color: gray;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size:1.05rem;
-}
-.unique{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.port{
-	color: gray;
-}
-.portfolio .card {
-	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.team .card {
-	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
-}
-.services .card-body i {
-	font-size: 50px;
-}
-.team .card-body i {
-	font-size: 20px;
-}
-.portfolio{
-	background-color: white;
-	/* background-color:rgb(207, 207, 207); */
-}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.carousel-caption {
-		bottom: 370px;
-	}
-	.carousel-caption p {
-		width: 100%;
-	}
-	.card {
-		margin-bottom: 30px;
-	}
 	.img-area img {
 		width: 100%;
 	}
@@ -149,37 +95,8 @@ body {
 	.navbar-nav {
 		text-align: center;
 	}
-	.carousel-caption {
-		bottom: 125px;
-	}
-	.carousel-caption h5 {
-		font-size: 17px;
-	}
-	.carousel-caption a {
-		padding: 10px 15px;
-		font-size: 15px;
-	}
-	.carousel-caption p {
-		width: 100%;
-		line-height: 1.6;
-		font-size: 12px;
-	}
 	.about-text {
 		padding-top: 50px;
-	}
-	.card {
-		margin-bottom: 30px;
-	}
-}
-@media only screen and (min-width: 980px) {
-	.unique01{
-		/* background: url('/img/backg01.jpg'); */
-		/* background-color: white; */
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	.card {
-		margin-bottom: 30px;
 	}
 }
 @media only screen and (max-width: 980px) {
