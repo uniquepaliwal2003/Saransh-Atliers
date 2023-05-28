@@ -97,4 +97,10 @@ body {
 	.about-text {
 		padding-top: 50px;
 	}
+	.name{
+		left: 5%;
+	}
+	.name p{
+		font-weight: 400;
+	}
 }

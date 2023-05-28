@@ -98,6 +98,12 @@ body {
 	.about-text {
 		padding-top: 50px;
 	}
+	.name{
+		left: 5%;
+	}
+	.name p{
+		font-weight: 400;
+	}
 }
 @media only screen and (max-width: 980px) {
 	.w-100{

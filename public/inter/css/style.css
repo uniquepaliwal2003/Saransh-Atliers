@@ -73,7 +73,7 @@ body {
 .name{
    position: absolute;
    top: 50vh;
-   left:35%;
+   left:30%;
 }
 @media (max-width: 768px) {
   .circular-image {
@@ -93,4 +93,15 @@ body {
 	.about-text {
 		padding-top: 50px;
 	}
+	.name{
+		left: 5%;
+	}
+	.name p{
+		font-weight: 400;
+	}
 }
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+  }
