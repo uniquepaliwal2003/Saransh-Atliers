@@ -4,8 +4,8 @@
   "description": "Website for saransh atliers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon"
+    "test": "echo \"Error: no test specified\" && exit 1"
+   
   },
   "author": "Unique",
   "license": "ISC",
