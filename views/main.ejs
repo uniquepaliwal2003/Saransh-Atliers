@@ -127,7 +127,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-header text-center pb-5">
-                        <h2>PORFOLIO</h2>
+                        <h2>PORTFOLIO</h2>
                         <!-- <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Non, quo.</p> -->
                     </div>
                 </div>
@@ -203,10 +203,8 @@
             </div>
 			<div class="row m-0">
 				<div class="col-md-12 p-0 pt-4 pb-4">
-					<form action="https://formsubmit.co/zantro2003@gmail.com" class="bg-light p-4 m-auto mainForm"
+					<form action="send" class="bg-light p-4 m-auto mainForm"
                     method="POST">
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="http://localhost:3000/thanks.html">
 						<div class="row">
 							<div class="col-md-12">
 								<div class="mb-4">
@@ -229,25 +227,25 @@
                                   </label>
 								<div class="mb-4">
 									<div class="form-check">
-                                        <input class="form-check-input" type="radio" name="Interior Design" id="InteriorDesign">
+                                        <input class="form-check-input" type="radio" name="projectType" value="InteriorDesign">
                                         <label class="form-check-label" for="InteriorDesign">
                                           Interior Design
                                         </label>
                                     </div>
 									<div class="form-check">
-                                        <input class="form-check-input" type="radio" name="Architecture" id="Architecture">
+                                        <input class="form-check-input" type="radio" name="projectType" value="Architecture">
                                         <label class="form-check-label" for="Architecture">
                                           Architecture
                                         </label>
                                     </div>
 									<div class="form-check">
-                                        <input class="form-check-input" type="radio" name="Landscape Design" id="LandscapeDesign">
+                                        <input class="form-check-input" type="radio" name="projectType" value="LandscapeDesign">
                                         <label class="form-check-label" for="LandscapeDesign">
                                           Landscape Design
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="Industrial Design" id="IndustrialDesign">
+                                        <input class="form-check-input" type="radio" name="projectType" value="IndustrialDesign">
                                         <label class="form-check-label" for="IndustrialDesign">
                                           Industrial Design
                                         </label>
@@ -267,6 +265,10 @@
                             </div>
                             <button class="btn btn-secondary btn-lg btn-block mt-3" type="submit">Send Now</button>
 						</div>
+            <div><%if(msg){%>
+                  <%=msg%>
+                  <% } %>
+            </div>
 					</form>
 				</div>
 			</div>
