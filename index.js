@@ -78,7 +78,7 @@ const transporter = nodemailer.createTransport({
       // Provide feedback to the user about the successful email sending
     }
   });
-  res.redirect('/')
+  res.render('thanks')
 })
 
 
